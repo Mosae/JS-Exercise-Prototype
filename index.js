@@ -98,6 +98,12 @@ function Baby(name, age, favoriteToy) {
   this.favoriteToy = favoriteToy;
 
 }
+Baby.prototype = Object.create(Person.prototype)
+Baby.prototype.play = function (favoriteToy) {
+  return `Playing with ${this.favoriteToy}, ${this.favoriteToy} being the favorite toy`
+}
+
+
 
 /* 
   TASK 4
