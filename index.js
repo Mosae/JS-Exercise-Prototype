@@ -109,10 +109,10 @@ Baby.prototype.play = function (favoriteToy) {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Referes to the current Object
+  2. Look to the left of the . to find where this refers to
+  3. Using 'strict' mode allows this to point in current scope of the object. 
+  4. If function is contained in global, this keyword points to the window object
 */
 
 
